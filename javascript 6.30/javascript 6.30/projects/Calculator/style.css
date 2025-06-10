@@ -1,0 +1,35 @@
+uttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+
+button {
+  padding: 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background: #444;
+  color:white;
+  cursor: pointer;
+  transition: background 0.2s;
+  
+
+}
+
+button:hover {
+  background: #533;
+  color: aqua;
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
+.equal {
+  grid-column: span 2;
+  background: #28a745;
+}
+
+.equal:hover {
+  background: darkorange;
+}

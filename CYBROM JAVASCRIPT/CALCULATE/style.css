@@ -1,0 +1,38 @@
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: url(image.png) no-repeat center;
+  background-size: cover;
+}
+table {
+    /* background: white; */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #0005;
+}
+th {
+    background: #111;
+    color: #0f0;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+    height: 60px;
+}
+td {
+    background: #444;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+td:hover {
+    background: #666;
+}

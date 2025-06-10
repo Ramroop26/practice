@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+                                                           <!-- TASK 1  -->
+    <style>
+                                                   
+        #main {
+            width: 600px;
+            height: 500px;
+            /* background-color: grey; */
+            background-image: url(coffee.jpeg);
+
+            margin-left: 30%;
+        }
+
+        #box {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #box1 {
+            width: 200px;
+            height: 200px;
+            /* background-color: green; */
+            background-image: url(https://tse3.mm.bing.net/th?id=OIP.U_VJuupQohwnzXcKMztqWgHaEo&pid=Api&P=0&h=180);
+
+        }
+
+        #box2 {
+            width: 200px;
+            height: 200px;
+            /* background-color: red; */
+            background-image: url(https://tse3.mm.bing.net/th?id=OIP.j4KdqaXpnhbN94WzVyHUhAHaE8&pid=Api&P=0&h=180);
+
+        }
+
+        #box3 {
+            width: 200px;
+            height: 200px;
+            /* background-color: black; */
+            background-image: url(https://themewagon.github.io/Coffo/images/img-1.png);
+
+        }
+
+          #box1:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        }
+        #box2:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        }
+        #box3:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        } 
+           
+        </style>
+
+
+                                                      <!-- TASK 3   -->
+    <style>
+        #counting{
+            width: 100px;
+            height: 60px;
+            border: 1px solid black;
+        }
+        </style>
+
+</head>
+
+<body>
+
+                                                         <!-- TASK 1 -->
+
+    <div id="main"></div>
+    <br>
+    <div id="box">
+    <div id="box1"  onmouseenter="image1()"></div>
+    <div id="box2" onmouseenter="image2()"></div>
+    <div id="box3" onmouseenter="image3()"></div>
+    </div>
+
+                                                        <!-- TASK 2 -->
+
+    <!-- <p id="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus qui nulla quo, minus voluptate ad corrupti,
+        cupiditate mollitia sapiente recusandae facere amet possimus quia vel fuga maiores nisi illum est?</p> -->
+    
+        <!-- <button onclick="change()" >20px</button> -->
+        <!-- <button onclick="hide()" >hide and show</button> -->
+        <!-- <button onclick="unhide()" >unhide</button> -->
+        <!-- <button onclick="reset()" >reset</button>  -->
+ 
+
+
+                                                        <!-- TASK 3 -->
+
+<!-- <div id="counting"></div>
+<button onclick="incre()">incre</button>
+<button onclick="decre()">decre</button>
+<button onclick="reset()">reset</button>
+ -->
+
+                                                        <!-- TASK 4 -->
+
+<!-- <input type="text" id="name">
+<button onclick="SHOW()">show</button> -->
+
+    <script src="task1.js"></script>
+</body>
+
+</html>
