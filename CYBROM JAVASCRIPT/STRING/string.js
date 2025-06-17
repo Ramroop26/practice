@@ -90,7 +90,7 @@
 // let name = "mayank";
 // let age = 21;
 
-// let a = `hello i am  ${name} and i am ${age} years old`;
-// document.write(a);
+let a = `hello i am  ${name} and i am ${age} years old`; // taplate letrals(``) its suport multi line strings
+document.write(a);
 
 
